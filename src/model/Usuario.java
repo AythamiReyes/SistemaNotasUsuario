@@ -1,7 +1,7 @@
 package model;
 
 public class Usuario {
-
+    
     String email;
     String password;
 
@@ -13,5 +13,5 @@ public class Usuario {
     public String getEmail() { return email;}
     public String getPassword() { return password;}
 
-    public String IniciarSeccion() { return email + password;}
+    public String Guardado() { return email + password;}
 }
