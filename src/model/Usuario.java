@@ -1,17 +1,18 @@
-package model;
+package modelo;
 
 public class Usuario {
-    
-    String email;
-    String password;
+    private String correo;
+    private String contrasena;
 
-    public Usuario(String email, String password) {
-        this.email = email; 
-        this.password = password;
+    public Usuario(String correo, String contrasena) {
+        this.correo = correo;
+        this.contrasena = contrasena;
     }
 
-    public String getEmail() { return email;}
-    public String getPassword() { return password;}
+    public String getCorreo() { return correo; }
+    public String getContrasena() { return contrasena; }
 
-    public String Guardado() { return email + password;}
+    public String guardado() {
+        return correo + ";" + contrasena;
+    }
 }
