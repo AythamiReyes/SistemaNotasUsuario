@@ -1,4 +1,4 @@
-package modelo;
+package model;
 
 public class Nota {
     private String titulo;
